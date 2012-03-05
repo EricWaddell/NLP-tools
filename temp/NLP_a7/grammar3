@@ -1,0 +1,19 @@
+ROOT -> S1 99
+S1 -> NP VP PUNC 1
+VP -> VERB NP 1
+NP -> Det Nbar 20
+NP -> Proper 1
+NP -> NBAR 1
+Nbar -> ADJ NBAR 1
+Nbar -> NOUN 20
+Nbar -> Nbar PP 1
+ADJ -> Misc
+PP -> Prep NP 1
+PUNC -> . 1
+PUNC -> ? 1
+PUNC -> ! 1
+PUNC -> , 1
+VERB -> VerbT 1
+VERB -> Misc 1
+NOUN -> Noun 1
+NOUN -> Misc 1

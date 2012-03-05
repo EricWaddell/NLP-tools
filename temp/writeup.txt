@@ -1,0 +1,21 @@
+Task 1:
+Milk and sour occur 49 times together in the same document. Milk and good occur 220 times together. I believe the word sour should be a better feature for determining the word milk, because it can only be used in a few contexts one of which pertains to food, while good can be used in many more contexts. Words that occur more frequently should be given less weight as features for measuring semantic similarity. Possibly so each feature is weighed independent of the frequency of occurence in the document. Words that are more strongly correlated with a word, like delicious vs good, are more useful as a feature.
+
+Task 2:
+PMI values	tea		coffee		beef
+drink		23.569		23.389		21.207
+eat		22.085		22.121		22.411
+sip		19.366		17.781		17.366
+cook		22.576		21.664		22.991
+caffeine	20.735		20.991		0
+slice		20.791		20.366		21.869
+
+Task 3:
+Distances	coffee		tea		milk		cheese
+coffee		0		3.234		5.238		7.217
+tea		3.234		0		4.336		7.462
+milk		5.238		4.336		0		5.488
+cheese		7.217		7.462		5.488		0
+
+Task 4:
+The script appears to make sense generally. Foods that are generally together, or made from one another are much closer than foods that don't share these qualities. Coffee and Tea are both hot breakfast, or after dinner foods, that are relatively standalone and so are quite close. Meat and potatos is much less likely than I would have expected and all the terms with vodka are at a distance of 50 or greater, leading me to suspect either people don't mention vodka often, or there is a limited amount of data.

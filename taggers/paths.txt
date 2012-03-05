@@ -1,0 +1,12 @@
+C:/Documents and Settings/Eric/My Documents/Coding/
+training/midStateBrown/
+testing/strippedBrown/
+evaluation/tagged/
+ca01
+
+If you move the directories or wish to change the file to test, edit these lines to match the location of your
+1: Workspace
+2: Training data
+3: Testing data
+4: Destination file for the tagged data
+5: File name you are testing
